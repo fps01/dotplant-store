@@ -9,8 +9,8 @@ class StructureGoodsProvider extends BaseGoodsProvider
 {
     public function getEntities(&$actionData)
     {
-        VarDumper::dump($this->getGoods([3]), 10, 1);
-        die;
+//        VarDumper::dump($this->getGoods([3]), 10, 1);
+//        die;
         return [];
     }
 
